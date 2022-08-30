@@ -92,12 +92,12 @@ input[type='text'] {
     align-items: center;
 }
 
-.todo-completed {
+.todo-completed  {
     display: flex;
     margin: 10px 0;
 }
 
-.todo-actions {
+.todo-actions  {
     place-self: center;
     /* display: flex;
     justify-content: space-between; */

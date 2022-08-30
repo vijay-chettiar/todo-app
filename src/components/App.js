@@ -68,13 +68,13 @@ const App = () => {
 								//   type="checkbox"
 								id="completed"
 								checked={todo.completed}
-								onChange={() => toggleComplete(todo.id)}
+								onChange={() => toggleComplete(todo.id) }
 							/>
 						</ul>
 						{todo.id === todoEditing ? (
 							<input
 								type="text"
-								onChange={(e) => setEditingText(e.target.value)}
+								onChange={(e) => setEditingText(e.target.value) }
 							/>
 						) : (
 							<div>{todo.text}</div>
